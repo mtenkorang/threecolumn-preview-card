@@ -59,7 +59,7 @@ main .card {
 
 .card.sedans {
   background-color: hsl(31deg, 77%, 52%);
-  border-radius: 10px 0 0 10px;
+  border-radius: 10px 10px 0 0;
 }
 .card.suv {
   background-color: hsl(184deg, 100%, 22%);
