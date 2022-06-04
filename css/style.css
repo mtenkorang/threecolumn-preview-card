@@ -26,6 +26,14 @@ p {
   color: hsla(0deg, 0%, 100%, 0.75);
 }
 
+a.btn {
+  padding: 8px 20px;
+  border-radius: 20%;
+  border: 1px solid #fff;
+  background-color: hsl(0deg, 0%, 95%);
+  text-decoration: none;
+}
+
 /*General Designs*/
 main {
   display: -webkit-box;
@@ -37,11 +45,13 @@ main {
       -ms-flex-pack: center;
           justify-content: center;
   width: 80%;
+  border-radius: 20px;
 }
 main .card {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 12.5rem;
           flex: 1 1 12.5rem;
+  height: 25rem;
 }
 
 .card.sedans {
