@@ -86,6 +86,14 @@ main .card {
     border-radius: 0 10px 10px 0;
   }
 }
+@media screen and (max-width: 499px) {
+  .card.sedans {
+    border-radius: 10px 10px 0 0;
+  }
+  .card.luxury {
+    border-radius: 0 0 10px 10px;
+  }
+}
 /*Footer*/
 .attribution {
   font-size: 11px;
