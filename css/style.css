@@ -15,6 +15,7 @@ body {
 h2 {
   font-family: "Big Shoulders Display", cursive;
   text-transform: uppercase;
+  margin: 15px 0;
 }
 
 p, a {
@@ -24,6 +25,7 @@ p, a {
 p {
   color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 1.7;
+  margin-bottom: 20px;
 }
 
 a.btn {
@@ -36,6 +38,7 @@ a.btn {
 
 /*General Designs*/
 main {
+  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,19 +54,19 @@ main .card {
       -ms-flex: 1 1 12.5rem;
           flex: 1 1 12.5rem;
   height: 25rem;
-  padding: 20px;
+  padding: 35px 25px;
 }
 
 .card.sedans {
   background-color: hsl(31deg, 77%, 52%);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 10px 10px 0 0;
 }
 .card.suv {
   background-color: hsl(184deg, 100%, 22%);
 }
 .card.luxury {
   background-color: hsl(179deg, 100%, 13%);
+  border-radius: 0 0 10px 10px;
 }
 
 .content p {
@@ -75,10 +78,12 @@ main .card {
 }
 
 /*Media Queries*/
-@media screen and (min-width: 430px) {
-  main {
-    -ms-flex-wrap: nowrap;
-        flex-wrap: nowrap;
+@media screen and (min-width: 500px) {
+  .card.sedans {
+    border-radius: 10px 0 0 10px;
+  }
+  .card.luxury {
+    border-radius: 0 10px 10px 0;
   }
 }
 /*Footer*/
