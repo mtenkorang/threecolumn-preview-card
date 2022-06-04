@@ -80,7 +80,7 @@ main .card {
 /*Media Queries*/
 @media screen and (min-width: 500px) {
   .card {
-    max-width: 24rem;
+    max-width: 20rem;
   }
   .card.sedans {
     border-radius: 10px 0 0 10px;
