@@ -22,6 +22,10 @@ p, a {
   font-family: "Lexend Deca", sans-serif;
 }
 
+p {
+  color: hsla(0deg, 0%, 100%, 0.75);
+}
+
 /*General Designs*/
 main {
   display: -webkit-box;
@@ -38,6 +42,16 @@ main .card {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 12.5rem;
           flex: 1 1 12.5rem;
+}
+
+.card.sedans {
+  background-color: hsl(31deg, 77%, 52%);
+}
+.card.suv {
+  background-color: hsl(184deg, 100%, 22%);
+}
+.card.luxury {
+  background-color: hsl(179deg, 100%, 13%);
 }
 
 /*Media Queries*/
