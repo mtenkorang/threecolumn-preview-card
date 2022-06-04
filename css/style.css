@@ -51,9 +51,9 @@ main {
 }
 main .card {
   -webkit-box-flex: 1;
-      -ms-flex: 1 1 12.5rem;
-          flex: 1 1 12.5rem;
-  height: 25rem;
+      -ms-flex: 1 1 200px;
+          flex: 1 1 200px;
+  height: 30rem;
   padding: 35px 25px;
 }
 
@@ -79,6 +79,9 @@ main .card {
 
 /*Media Queries*/
 @media screen and (min-width: 500px) {
+  .card {
+    max-width: 24rem;
+  }
   .card.sedans {
     border-radius: 10px 0 0 10px;
   }
