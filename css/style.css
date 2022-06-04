@@ -23,6 +23,30 @@ p, a {
 }
 
 /*General Designs*/
+main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 80%;
+}
+main .card {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 12.5rem;
+          flex: 1 1 12.5rem;
+}
+
+/*Media Queries*/
+@media screen and (min-width: 430px) {
+  main {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+  }
+}
 /*Footer*/
 .attribution {
   font-size: 11px;
