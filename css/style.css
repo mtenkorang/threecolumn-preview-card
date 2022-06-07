@@ -7,7 +7,6 @@
 }
 
 body {
-  height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -25,8 +24,9 @@ body {
 
 h2 {
   font-family: "Big Shoulders Display", cursive;
+  color: hsl(0deg, 0%, 95%);
   text-transform: uppercase;
-  margin: 15px 0;
+  font-size: 1.5rem;
 }
 
 p, a {
@@ -36,15 +36,21 @@ p, a {
 p {
   color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 1.7;
-  margin-bottom: 20px;
+  margin-bottom: 4rem;
 }
 
 a.btn {
-  padding: 8px 20px;
+  padding: 0 15px;
   border-radius: 20px;
   border: 1px solid #fff;
   background-color: hsl(0deg, 0%, 95%);
   text-decoration: none;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 a.btn.btn1 {
@@ -54,6 +60,7 @@ a.btn.btn1:hover {
   cursor: pointer;
   background-color: hsl(31deg, 77%, 52%);
   color: hsla(0deg, 0%, 100%, 0.75);
+  border: none;
 }
 
 /*General Designs*/
@@ -73,9 +80,16 @@ main .card {
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
   height: 30rem;
-  padding: 35px 25px;
+  padding: 2rem;
 }
 
+.card {
+  display: grid;
+  justify-items: flex-start;
+}
+.card img {
+  display: block;
+}
 .card.sedans {
   background-color: hsl(31deg, 77%, 52%);
   border-radius: 10px 10px 0 0;
@@ -88,16 +102,12 @@ main .card {
   border-radius: 0 0 10px 10px;
 }
 
-.content p {
-  border: 2px dotted #333;
-}
-.content a {
-  border: 2px dotted maroon;
-  margin: 20px 0;
-}
-
 /*Media Queries*/
 @media screen and (min-width: 500px) {
+  body {
+    height: 100vmin;
+  }
+
   .card {
     max-width: 20rem;
   }
@@ -109,6 +119,10 @@ main .card {
   }
 }
 @media screen and (max-width: 499px) {
+  main {
+    margin-top: 2rem;
+  }
+
   .card.sedans {
     border-radius: 10px 10px 0 0;
   }
