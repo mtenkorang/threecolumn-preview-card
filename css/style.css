@@ -26,7 +26,7 @@ h2 {
   font-family: "Big Shoulders Display", cursive;
   color: hsl(0deg, 0%, 95%);
   text-transform: uppercase;
-  font-size: 1.5rem;
+  font-size: 2.25rem;
 }
 
 p, a {
@@ -105,7 +105,7 @@ main .card {
 /*Media Queries*/
 @media screen and (min-width: 500px) {
   body {
-    height: 100vmin;
+    height: 100vh;
   }
 
   .card {
