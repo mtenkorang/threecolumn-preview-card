@@ -85,7 +85,6 @@ main .card {
 
 .card {
   display: grid;
-  justify-items: flex-start;
 }
 .card img {
   display: block;
