@@ -40,7 +40,7 @@ p {
 }
 
 a.btn {
-  padding: 0 15px;
+  padding: 10px 20px;
   border-radius: 20px;
   border: 1px solid #fff;
   background-color: hsl(0deg, 0%, 95%);
@@ -80,7 +80,7 @@ main .card {
       -ms-flex: 1 1 200px;
           flex: 1 1 200px;
   height: 30rem;
-  padding: 2rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
 .card {
@@ -128,6 +128,10 @@ main .card {
   }
   .card.luxury {
     border-radius: 0 0 10px 10px;
+  }
+
+  p {
+    margin-bottom: 1.5rem;
   }
 }
 /*Footer*/
