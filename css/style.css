@@ -85,7 +85,6 @@ main .card {
 
 .card {
   display: grid;
-  justify-items: flex-start;
 }
 .card img {
   display: block;
@@ -108,9 +107,6 @@ main .card {
     height: 100vh;
   }
 
-  .card {
-    max-width: 19rem;
-  }
   .card.sedans {
     border-radius: 10px 0 0 10px;
   }
