@@ -141,7 +141,7 @@ main .card {
 }
 @media screen and (max-width: 499px) {
   main {
-    margin-top: 2rem;
+    margin: 2rem 0;
   }
   .card.sedans {
     border-radius: 10px 10px 0 0;
