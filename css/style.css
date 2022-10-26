@@ -125,7 +125,10 @@ main .card {
 }
 
 /*Media Queries*/
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 650px) {
+  body {
+    height: 100vh;
+  }
   .card {
     max-width: 19rem;
   }
