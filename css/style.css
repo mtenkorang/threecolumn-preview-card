@@ -38,6 +38,7 @@ p {
   color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 1.7;
   margin-bottom: 2rem;
+  width: 90%;
 }
 
 a.btn {
@@ -106,6 +107,7 @@ main .card {
           align-items: center;
   -ms-flex-line-pack: space-evenly;
       align-content: space-evenly;
+  row-gap: 12px;
 }
 .card img {
   display: block;
