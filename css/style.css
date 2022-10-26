@@ -107,7 +107,7 @@ main .card {
           align-items: center;
   -ms-flex-line-pack: space-evenly;
       align-content: space-evenly;
-  row-gap: 12px;
+  row-gap: 5px;
 }
 .card img {
   display: block;
